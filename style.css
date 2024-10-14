@@ -1,0 +1,69 @@
+h1 {
+    font-size: 70px;       
+    color: rgb(117, 253, 71);           
+    font-family: Arial, sans-serif;  
+    text-align: center;    
+    text-transform: uppercase;  
+    margin-top: 20px;    
+}
+
+body {
+    background-color: rgb(18, 16, 16);
+    text-align: center;
+}
+
+input {
+    border: 2px solid #00cc00;
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: rgb(27, 28, 29);
+    width: 250px;
+    height: 60px;
+    color: #00ff00;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(10, 99, 10, 0.7); 
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+input:focus {
+    border-color: #00cc00; 
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7); 
+  } 
+
+button{
+    outline: none;
+    border-radius: 0.8rem;
+    width: 120px;
+    height: 82px;
+    background-color: #00cc00;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}  
+
+P{
+    font-size: 20px;
+    color: #346034;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 20vh; 
+}
+
+#vysledek{
+    font-size: 55px;
+    color: #00cc00;
+}
